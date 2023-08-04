@@ -1,0 +1,33 @@
+{
+  "name": "flip-animation",
+  "version": "1.0.0",
+  "description": "1.使用flip原则的animation - First: 过渡中涉及的元素的初始状态。- Last:元素的最终状态。- Invert:反转更改，使元素看起来还在初始位置。-Play:打开您更改的任何属性的过渡，然后删除反转更改。；2.什么时候使用flip?元素的开始和结束位置以及尺寸是未知的。3.使用flip原则可以轻松实现60fps动画。",
+  "keywords": [
+    "flip",
+    "css",
+    "animation"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "loader-utils": "3.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
